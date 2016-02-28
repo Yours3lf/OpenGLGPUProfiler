@@ -1,5 +1,12 @@
 # OpenGLGPUProfiler
 ## Usage:
+### Turn profiling on/off with defining GPU_PROFILER_ENABLED
+
+```
+#define GPU_PROFILER_ENABLED
+#include "gpu_profiler.h"
+```
+
 ### Initialization
 
 ```

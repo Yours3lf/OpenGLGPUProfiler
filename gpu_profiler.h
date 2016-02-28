@@ -3,8 +3,6 @@
 #include <GL/glew.h>
 #include <vector>
 
-#define GPU_PROFILER_ENABLED
-
 class gpu_profiler
 {
 public:
@@ -39,7 +37,7 @@ public:
     glEndQuery( mode );
     query_in_progress = false;
     current_query++;
-    
+
     if( current_query > query_ids.size() - 1 )
     {
       query_ids.resize( query_ids.size() + initial_size );
