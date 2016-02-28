@@ -59,8 +59,8 @@ profiler.getResults();
 auto result = profiler.getQueryResult( query_id );
 ```
 
-### if you used GL_TIME_ELAPSED, use this to get elapsed time in milliseconds
+### If you used GL_TIME_ELAPSED, use this to get elapsed time in milliseconds
 
 ```
-float time_elapsed = result _ 0.001 _ 0.001;
+float time_elapsed = result * 0.001 * 0.001;
 ```
